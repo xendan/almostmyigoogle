@@ -1,0 +1,31 @@
+#wrapper {
+	height : 550px;
+	overflow : hidden;
+}
+
+#items {
+	position:relative;
+	top:0;
+}
+
+#items li {
+	list-style-type: none;
+	padding-top : 10px;
+}
+
+#items div {
+	padding-left:50px;
+}
+
+#items a {
+	text-decoration:underline;
+	cursor: pointer;
+}
+
+.visited {
+	color:gray;
+}
+
+.visited a {
+	color:inherit;
+}
